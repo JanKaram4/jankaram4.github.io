@@ -1,0 +1,40 @@
+body {
+    background-position: center;
+    background-image: url("header.jpg");
+    background-size: cover;
+}
+header {
+    font-size: 40px;
+    text-align: center;
+    height: 400px;
+    color: white;
+    padding-top: 40px;
+    margin-top: 20px;
+}
+/*header::after {
+    content: "";
+    background-color: black;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}*/
+.btn-danger {
+    /*width: 20%;
+    margin: auto;
+    min-width: 300px;*/
+    border-radius: 30px;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+#mc_embed_signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
